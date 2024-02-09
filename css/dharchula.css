@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header {
+    background-color: #000000;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    transition: 0.5s ease;
+}
+
+header .brand {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation {
+    display: inline-flex;
+    position: relative;
+
+}
+
+header .navigation .navigation-items a {
+
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-weight: 550;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: .3s ease;
+}
+
+header .navigation .navigation-items a::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover::before {
+    width: 100%;
+}
+
+section {
+    padding: 100px 20px;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #2696E9;
+}
+
+.home::before {
+    z-index: 777;
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.356);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.home .content {
+    z-index: 888;
+    color: #fff;
+    width: 80%;
+    margin-left: 114px;
+    margin-top: 50px;
+}
+
+.home .content h1 {
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    line-height: 75px;
+    margin-bottom: 40px;
+
+}
+
+.home .content h1 span {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.home .content p {
+    margin-bottom: 65px;
+}
+
+.home .content a {
+    background-color: #fff;
+    padding: 15px 35px;
+    color: #1680AC;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+
+}
+
+.media-icons {
+    z-index: 888;
+    position: absolute;
+    right: 30px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+
+.media-icons a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.6em;
+    transition: .3s ease;
+}
+
+.media-icons a:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.media-icons a:hover {
+    transform: scale(1.4);
+    color: #ff0040;
+}
+
+
+
+footer {
+    background: black;
+    display: flex;
+    color: white;
+    position: relative;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #c6c1c1;
+    margin: 2rem;
+}
+
+.dharchula {
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.dharchula h1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.dharchula h2 {
+    justify-content: center;
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: -93px;
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #e6e6e6;
+    padding: 35px;
+}
+
+.container .container-sub {
+    width: 100%;
+    height: 100%;
+}
+
+.content-container {
+    display: flex;
+    padding: 14px;
+    column-gap: 85px;
+    justify-content: center;
+}
+
+.container .container-sub .dharchula-img img {
+    height: 350px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 3%;
+    box-shadow: 0px 0px 7px 4px #c5c5c5;
+}
+
+.container .container-sub .dharchula-text h2 {
+    font-weight: bolder;
+
+}
+
+.container .container-sub .dharchula-text h3 {
+    font-weight: 600;
+    text-align: justify;
+
+}
+
+.container .container-sub .dharchula-text p {
+    font-weight: 600;
+
+}
+
+.containerout {
+    position: relative;
+    margin: 30px;
+}
+
+.d-grid {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.alink button {
+    color: #fff;
+    background-color: #ff1356;
+    border-color: 4px solid #ff1f1f;
+    padding: 10px;
+    border: #ff1356;
+    font-weight: 500;
+
+}
+
+.alink button:hover {
+    color: #ff0055;
+    background: #ffffff;
+    border: 2px solid #ff0059;
+
+    transition: .2s ease;
+}
+
+
+
+@media (max-width: 700px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    section {
+        padding: 100px 20px;
+    }
+
+    .home .media-icons {
+        right: 15px;
+    }
+
+    header .navigation {
+        display: none;
+    }
+
+    header .navigation.active {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(1, 1, 1, 0.5);
+    }
+
+    header .navigation .navigation-items a {
+        color: #141414;
+        font-size: 1.2em;
+        margin: 20px;
+    }
+
+    header .navigation .navigation-items a:before {
+        background: #222;
+
+        height: 5px;
+    }
+
+    header .navigation.active .navigation-items {
+        background: #fff;
+        width: 600px;
+        max-width: 600px;
+        margin: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 5px 25px rgb(1 1 1/20%);
+    }
+
+    .menu-btn {
+        background: url(menu.png)no-repeat;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .menu-btn.active {
+        z-index: 999;
+        background: url(close.png)no-repeat;
+        background-size: 25px;
+        background-position: center;
+        transition: .3s ease;
+    }
+
+    .dharchula h1 {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .container-sub .dharchula-img img {
+        width: 255px;
+        height: 170px;
+    }
+
+    .container .container-sub .dharchula-text {
+        padding: 20px;
+    }
+
+    footer {
+        background: black;
+        color: white;
+        position: relative;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    footer h3 {
+        font-size: 16px;
+    }
+}

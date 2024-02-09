@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adikailashtravels</title>
+    <link rel="stylesheet" href="./css/pricing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <header>
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="logo" width="70" height="70">
+        </a>
+        <!-- <a href="#" class="brand">Travels</a> -->
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="index.html">Home</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="about.html">About Us</a>
+                <a href="booking.html">Booking Form</a>
+            </div>
+    </header>
+    <!-- <div class="media-icons">
+        <a href="https://www.facebook.com/profile.php?id=100091278700153" class="fa fa-facebook"></a>
+        <a href="https://wa.me/919760124355" class="fa fa-whatsapp" target="blank"></a>
+        <a href="https://www.instagram.com/adikailashtravels/" class="fa fa-instagram" target="blank"></a>
+    </div> -->
+
+    <div class="pricing">
+        <h1>PRICING</h1>
+        <div class="pricing-card">
+            <div class="card" style="width: 18rem;">
+                <img src="\img\1.png" class="card-img-top" alt="...">
+                <div class="pricing-card-body">
+                    <h5 class="card-title">Dharchula to Adi-kailash & Om Parvat</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" id="">₹ 21,999</li>
+                    <li class="list-group-item">5-Days ☼</li>
+                    <li class="list-group-item">4-Nights 🌙</li>
+                    <li class="list-group-item">✅ We will providing breakfast and lunch</li>
+                </ul>
+                <div class="card-body">
+                    <a href="dharchula.html" class="card-link">VIEW DETAILES</a>
+                    <a href="booking.html" class="card-link">BOOK NOW</a>
+                </div>
+            </div>
+            <div class="card" style="width:18rem;">
+                <img src="\img\2.png" class="card-img-top" alt="...">
+                <div class="pricing-card-body">
+                    <h5 class="card-title">Kathgodham to Adi-kailash & Om Parvat</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">₹ 29,999</li>
+                    <li class="list-group-item">7-Days ☼</li>
+                    <li class="list-group-item">6-Nights 🌙</li>
+                    <li class="list-group-item">✅ We will providing breakfast and lunch</li>
+                </ul>
+                <div class="card-body">
+                    <a href="kathgodham.html" class="card-link">VIEW DETAILES</a>
+                    <a href="booking.html" class="card-link">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <hr>
+        <h3>Adi-Kailash Travels | www.adikailashtravels.com</h3>
+    </footer>
+
+    <script type="text/javascript">
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>

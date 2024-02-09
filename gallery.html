@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adikailashtravels</title>
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="logo" width="70" height="70">
+        </a>
+        <!-- <a href="#" class="brand">Travels</a> -->
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="index.html">Home</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="about.html">About Us</a>
+                <a href="booking.html">Booking Form</a>
+            </div>
+    </header>
+    <section class="home">
+        <!-- <video class="vide-slide" src="video.webm" autoplay muted loop></video> -->
+        <div class="gallery-container">
+            <h1>GALLERY</h1>
+        </div>
+        <!-- <div class="media-icons">
+            <a href="https://www.facebook.com/profile.php?id=100091278700153" class="fa fa-facebook"></a>
+            <a href="https://wa.me/919760124355" class="fa fa-whatsapp" target="blank"></a>
+            <a href="https://www.instagram.com/adikailashtravels/" class="fa fa-instagram" target="blank"></a>
+        </div> -->
+    </section>
+
+    <div class="gallery-container2">
+        <h1>PHOTOS</h1>
+        <div class="gallery-img">
+            <div class="gallery-photos">
+                <img src="./img/2.png" alt="">
+            </div>
+            <div class="gallery-photos">
+                <img src="./img/adi.jpg" alt="">
+            </div>
+            <div class="gallery-photos">
+                <img src="./img/IMG-20221017-WA0037.jpg" alt="">
+            </div>
+            <div class="gallery-photos">
+                <img src="./img/IMG-20221017-WA0038.jpg" alt="">
+            </div>
+            <div class="gallery-photos">
+                <img src="./img/IMG-20230126-WA0080.jpg" alt="">
+            </div>
+            <div class="gallery-photos">
+                <img src="./img/IMG-20230314-WA0033.jpg" alt="">
+            </div>
+            <div class="gallery-photos">
+                <img src="./img/IMG-20221017-WA0040.jpg" alt="">
+            </div>
+            <div class="gallery-photos">
+                <img src="./img/IMG-20221017-WA0051.jpg" alt="">
+            </div>
+            <div class="gallery-photos">
+                <img src="./img/IMG-20221017-WA0039.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <hr>
+        <h3>Adi-Kailash Travels | www.adikailashtravels.com</h3>
+    </footer>
+    <script type="text/javascript">
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
