@@ -1,0 +1,6 @@
+- Designed and developed a user-friendly website for booking Adi Kailash Parvat trips, utilizing HTML, CSS, and JavaScript.
+- Created multiple pages, including Home, Pricing, Gallery, About Us, and Booking form, to enhance user experience and provide comprehensive information.
+- Implemented intuitive navigation and layout to ensure easy access to relevant content and seamless booking process.
+- Incorporated visually appealing design elements and optimized website performance to captivate and engage users.
+- Successfully integrated a secure and efficient booking form, enabling users to easily book their Adi Kailash Parvat trips.
+- Received positive feedback from users regarding the website's usability, design, and ease of booking, contributing to increased customer satisfaction.
